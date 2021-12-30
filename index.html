@@ -6,26 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INOXSA | Soluciones Industriales</title>
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/inoxsa.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="./assets/css/all.css" rel="stylesheet">
     <!--load all styles -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-    <style>
-        .espacio {
-            padding-right: 50px;
-        }
-
-        .menuPrincipal {
-            font-family: "Open Sans";
-            color: black;
-            font-size: larger;
-        }
-
-        .carrouselPrincipal {
-            height: 600px;
-        }
-    </style>
 </head>
 
 <body>
@@ -33,47 +19,48 @@
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg" style="background-color: #F9F9F9;" aria-label="INOXSA NAVBAR">
                 <div class="container-xl">
-                    <a class="navbar-brand espacio" href="#">
+                    <a class="navbar-brand espacio" href="index.html">
                         <img src="./images/logo.svg" alt="" width="160" height="80"
                             class="d-inline-block align-text-top">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarINOXSA" aria-controls="navbarINOXSA" aria-expanded="false"
                         aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon"><i class="fas fa-bars"
+                                style="color:777; font-size:28px;"></i></span>
                     </button>
 
                     <div class="collapse navbar-collapse" id="navbarINOXSA">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item espacio">
-                                <a class="nav-link active menuPrincipal" aria-current="page" href="#">Inicio</a>
+                                <a class="nav-link active menuPrincipal" aria-current="page"
+                                    href="index.html">Inicio</a>
                             </li>
                             <li class="nav-item dropdown espacio">
                                 <a class="nav-link dropdown-toggle menuPrincipal" href="#" id="DDRamos"
                                     data-bs-toggle="dropdown" aria-expanded="false">Ramos</a>
                                 <ul class="dropdown-menu" aria-labelledby="dropdown07XL">
-                                    <li><a class="dropdown-item" href="#">Industria Maquiladora</a></li>
-                                    <li><a class="dropdown-item" href="#">Industria Alimenticia</a></li>
-                                    <li><a class="dropdown-item" href="#">Agroindustria</a></li>
-                                    <li><a class="dropdown-item" href="#">Industria Minera</a></li>
-                                    <li><a class="dropdown-item" href="#">Otros</a></li>
+                                    <li><a class="dropdown-item" href="rmaquiladora.html">Industria Maquiladora</a></li>
+                                    <li><a class="dropdown-item" href="ralimenticia.html">Industria Alimenticia</a></li>
+                                    <li><a class="dropdown-item" href="ragroindustria.html">Agroindustria</a></li>
+                                    <li><a class="dropdown-item" href="rminera.html">Industria Minera</a></li>
+                                    <li><a class="dropdown-item" href="rotros.html">Otros</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown espacio">
                                 <a class="nav-link dropdown-toggle menuPrincipal" href="#" id="DDRamos"
                                     data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
                                 <ul class="dropdown-menu" aria-labelledby="DDRamos">
-                                    <li><a class="dropdown-item" href="#">Maquinado Convencional y CNC</a></li>
-                                    <li><a class="dropdown-item" href="#">Industria Alimenticia</a></li>
-                                    <li><a class="dropdown-item" href="#">Servicios de Soldadura</a></li>
-                                    <li><a class="dropdown-item" href="#">Otros tipos de servicios</a></li>
+                                    <li><a class="dropdown-item" href="scnc.html">Maquinado Convencional y CNC</a></li>
+                                    <li><a class="dropdown-item" href="ssoldadura.html">Servicios de Soldadura</a></li>
+                                    <li><a class="dropdown-item" href="sotros.html">Otros servicios</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item espacio">
-                                <a class="nav-link active menuPrincipal" aria-current="page" href="#">Catalogo</a>
+                                <a class="nav-link active menuPrincipal" aria-current="page" href="ccatalogo.html">Catalogo</a>
                             </li>
                             <li class="nav-item espacio">
-                                <a class="nav-link active menuPrincipal" aria-current="page" href="#">Acerca de
+                                <a class="nav-link active menuPrincipal" aria-current="page" href="acercade.html">Acerca de
                                     Nosotros</a>
                             </li>
                             <li class="nav-item espacio">
@@ -98,36 +85,29 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" width="100%" height="100%" src="./images/image01.png" alt="First slide">
-                        </svg>
+                        <img src="./images/image02.png" class="d-block w-100">
                         <div class="container">
                             <div class="carousel-caption text-lg-center">
-                                <h1>Fabricación de Horno.</h1>
-                                <p>Información......</p>
+                                <h1>Zaranda para seleccionado de Nuez</h1>
+                                <p>Hasta en 5 tamaños</p>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="#777" />
-                        </svg>
+                        <img src="./images/image03.png" class="d-block w-100">
                         <div class="container">
-                            <div class="carousel-caption">
-                                <h1>Fabricación e instalación de tuberia sanitaria.</h1>
-                                <p>Información.</p>
+                            <div class="carousel-caption text-lg-center">
+                                <h1>Asador en acero inoxidable</h1>
+                                <p>Con aislamiento térmico, emparrillado tradicional o argentino.</p>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="#777" />
-                        </svg>
+                        <img src="./images/image04.png" class="d-block w-100">
                         <div class="container">
-                            <div class="carousel-caption text-end">
-                                <h1>Fabricación de campanas para extracción de vapor</h1>
-                                <p>Información...</p>
+                            <div class="carousel-caption text-lg-center">
+                                <h1>Tarja Industrial</h1>
+                                <p>De doble tina.</p>
                             </div>
                         </div>
                     </div>
@@ -143,74 +123,73 @@
             </div>
         </div>
         <!-- Footer -->
-        <footer class="bg-dark text-center text-white">
+        <footer class="bg-dark text-center text-white" style="height:auto;">
             <!-- Grid container -->
-            <div class="container p-4">
-                <!-- Section: Social media -->
-                <section class="mb-4">
-                    <!-- Facebook -->
-
-                </section>
-                <!-- Section: Social media -->
-
-                <!-- Section: Text -->
-                <section class="mb-4">
-                    <p>
-                    <H3>Contactanos</H3>
-                    <h5>FABRICACION Y MAQUINADOS INDUSTRIALES INOXSA S DE RL DE CV</h5>
-                    Equipos fabricados en acero inoxidable.
-                    </p>
-                </section>
-                <!-- Section: Text -->
-
+            <div class="container">
                 <!-- Section: Links -->
-                <section class="">
                     <!--Grid row-->
                     <div class="row">
                         <!--Grid column-->
-                        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-                            <ul class="list-unstyled mb-0">
-                                <li>
-                                    <p class="text-white">
-                                    <h5 class="text-uppercase"><img src="./images/logo-white.svg" style="color: white;" alt="" width="160"
-                                            height="80" class="d-inline-block align-text-top"></h5>
-                                    Ave. Fernando Baeza #12 SUR<br>
-                                    Col. Primero de Mayo<br>
-                                    Cd. Delicias,Chihuahua
-                                    </p>
-                                </li>
-                            </ul>
+                        <div class="col-lg-4">
+                            <p>
+                            <h5 class="text-uppercase"><img src="./images/logo-white.svg" style="color: white;" alt=""
+                                    width="160" height="80" class="d-inline-block align-text-top"></h5>
+                            Ave. Fernando Baeza #12 SUR<br>
+                            Col. Primero de Mayo<br>
+                            Cd. Delicias,Chihuahua
+                            </p>
                         </div>
-                        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-                            <ul class="list-unstyled mb-0">
-                                <li>
-                                    <div style="height: 100;"></div>
-                                    <p class="text-white">ventas@industrialinoxsa.com.mx<br>
-                                        Telefono: 6394740670<br>
-                                        Whatsapp: 6394719310
-                                    </p>
-                                </li>
-                            </ul>
+                        <div class="col-lg-4">
+                            <p>
+                            <H3>Contactanos</H3>
+                            <h5>FABRICACION Y MAQUINADOS INDUSTRIALES INOXSA S DE RL DE CV</h5>
+                            Siguenos en Facebook<br>
+                                <a class="btn btn-outline-light btn-floating m-1"
+                                    href="https://www.facebook.com/Inoxsa-Soluciones-Industriales-543501629140008/"
+                                    role="button">
+                                    <i class="fab fa-facebook"></i></a>
+                            </p>
                         </div>
-                        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-                            <ul class="list-unstyled mb-0">
-                                <li>
-                                    <div style="height: 100;"></div>
-                                    <p class="text-white">Siguenos en Facebook<br>
-                                        <a class="btn btn-outline-light btn-floating m-1"
+                        <div class="col-lg-4 espacioFooter">
+                                <table class="text-white">
+                                    <tr>
+                                        <td>
+                                            <a class="btn btn-outline-light btn-floating m-1"
                                             href="https://www.facebook.com/Inoxsa-Soluciones-Industriales-543501629140008/"
                                             role="button">
-                                            <i class="fab fa-facebook"></i></a>
-                                    </p>
-                                </li>
-                            </ul>
-
+                                            <i class="far fa-envelope"></i></a>
+                                        </td>
+                                        <td>
+                                            ventas@industrialinoxsa.com.mx
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a class="btn btn-outline-light btn-floating m-1"
+                                            href="https://www.facebook.com/Inoxsa-Soluciones-Industriales-543501629140008/"
+                                            role="button">
+                                            <i class="fas fa-phone"></i></a>
+                                        </td>
+                                        <td>
+                                            6394740670
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a class="btn btn-outline-light btn-floating m-1"
+                                            href="https://www.facebook.com/Inoxsa-Soluciones-Industriales-543501629140008/"
+                                            role="button">
+                                            <i class="fab fa-whatsapp"></i></a>
+                                        </td>
+                                        <td>
+                                            6394719310
+                                        </td>
+                                    </tr>
+                                </table>
                         </div>
                         <!--Grid column-->
                     </div>
                     <!--Grid row-->
-                </section>
-                <!-- Section: Links -->
             </div>
             <!-- Grid container -->
         </footer>
